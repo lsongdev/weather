@@ -1,0 +1,41 @@
+@import url(https://lsong.org/css/stylesheet.css);
+@import url(https://lsong.org/stylesheets/card.css);
+@import url(https://lsong.org/stylesheets/button.css);
+
+img {
+  display: block;
+}
+
+h2 small {
+  font-size: small;
+  font-weight: normal;
+}
+
+.weather-day-items {
+  gap: 1em;
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 20px;
+}
+
+.weather-item {
+  --card-bg-color: #ecf0f1;
+
+  padding: 2em;
+  min-width: 280px;
+}
+
+.weather-item img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.weather-item .temp {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.wind-direction {
+  display: inline-block;
+}

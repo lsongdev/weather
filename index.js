@@ -9,7 +9,7 @@ const WeatherItem = ({ weather: data }) => {
   const { main, visibility, weather, wind, dt_txt = 'Now' } = data || {};
   const { temp, temp_min, temp_max, feels_like, humidity, pressure } = main;
   const [w1] = weather;
-  const icon = `http://openweathermap.org/img/w/${w1.icon}.png`;
+  const icon = `https://openweathermap.org/img/w/${w1.icon}.png`;
 
   return h('div', { className: "weather-item card" }, [
     dt_txt && h('h3', null, dt_txt),

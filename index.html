@@ -7,23 +7,22 @@
   <meta name="viewport" content="width=device-width">
   <link rel="icon" type="image/png" href="https://lsong.org/icon.png">
   <link rel="icon" type="image/svg+xml" href="https://lsong.org/icon.svg">
-  <link rel="stylesheet" href="index.css">
-  <script type="module" src="index.js"></script>
+  <link rel="stylesheet" href="index.css?v=2">
+  <script type="module" src="index.js?v=2"></script>
 </head>
 
 <body>
-  <header class="navbar">
-    <a class="heading navbar-brand" href>
-      <img src="https://lsong.org/icon.svg" alt="" class="logo">
+  <header class="navbar site-header">
+    <a class="navbar-brand" href="/" aria-label="Lsong’s Weather home">
+      <img class="navbar-brand-mark" src="https://lsong.org/assets/web/icon.png?v=2" alt="" aria-hidden="true" referrerpolicy="no-referrer">
       <h1 prefix="Lsong’s " class="title">Weather</h1>
     </a>
-    <nav>
-      <a href="//lsong.org">home</a>
-      <a href="//lsong.org/posts">blog</a>
-      <a href="//lsong.org/books">books</a>
-      <a href="//lsong.org/music">music</a>
-      <a href="//lsong.org/start">apps</a>
-      <x-inbox></x-inbox>
+    <nav aria-label="Main navigation">
+      <a href="https://lsong.org">Home</a>
+      <a href="https://lsong.org/posts">Writing</a>
+      <a href="https://lsong.org/books">Books</a>
+      <a href="https://lsong.org/music">Music</a>
+      <a href="https://lsong.org/start">Apps</a>
     </nav>
     <hr />
   </header>
@@ -48,13 +47,17 @@
       </form>
     </section>
   </main>
-  <footer class="footer">
-    <hr />
-    Liu Song
-    <address>
-      <a href="mailto:hi@lsong.org">hi@lsong.org</a>
-    </address>
-    <a href="https://lsong.org">https://lsong.org</a>
+  <footer class="site-footer footer">
+    <a class="navbar-brand" href="https://lsong.org">
+      <img class="navbar-brand-mark" src="https://lsong.org/assets/web/icon.png?v=2" alt="" aria-hidden="true" referrerpolicy="no-referrer">
+      <span>Lsong</span>
+    </a>
+    <p>Independent software, made with care.</p>
+    <nav aria-label="Footer navigation">
+      <a href="mailto:hi@lsong.org">Email</a>
+      <a href="https://lsong.org/terms.html">Terms</a>
+      <a href="https://lsong.org/privacy.html">Privacy</a>
+    </nav>
   </footer>
 </body>
 
